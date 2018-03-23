@@ -3,33 +3,37 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="/css/master.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <title>chessmaps</title>
   </head>
   <body>
-    <div class="nombre">
-      <h1>ChessMaps</h1>
-    </div>
+    <div class="container">
+      <div class="row">
+        <h1>ChessMaps</h1>
+        <p>Search</p>
+      </div>
 
-    <div class="buscador">
-      <h3>Search icon</h3>
-    </div>
+      <div class="row">
+        <div class="chessMap">
+          <img src="https://maps.googleapis.com/maps/api/staticmap?center=La Pedrera, Barcelona, Spain&zoom=13&size=600x300&maptype=roadmap
+    &markers=color:blue%7Clabel:S%7C40.702147,-74.015794&markers=color:green%7Clabel:G%7C40.711614,-74.012318
+    &markers=color:red%7Clabel:C%7C40.718217,-73.998284
+    &key=AIzaSyC7N-2lq8GLkCCSx5USixX7xRCkdnAsaZU" alt="">
+        </div>
+      </div>
 
-    <div class="chessMap">
-      <img src="https://maps.googleapis.com/maps/api/staticmap?center=La Pedrera, Barcelona, Spain&zoom=13&size=600x300&maptype=roadmap
-&markers=color:blue%7Clabel:S%7C40.702147,-74.015794&markers=color:green%7Clabel:G%7C40.711614,-74.012318
-&markers=color:red%7Clabel:C%7C40.718217,-73.998284
-&key=AIzaSyC7N-2lq8GLkCCSx5USixX7xRCkdnAsaZU" alt="">
-    </div>
+      <div class="row">
+        <div class="textMap">
+          <p>Results</p>
+          <ul>
+            <li>22.03.2018, BRN, 37th Bahrain Chess Academy Blitz Fide Rated, Seef, BRN</li>
+            <li>22.03.2018, EGY, 13th Int. Maadi Chess Academy Blitz - Open, Cairo, EGY</li>
+            <li>22.03.2018, GER, Koenig Tegel - 3. Tegeler Blitz-Cup, Berlin, GER</li>
+          </ul>
+        </div>
+      </div>
 
-    <div class="textMap">
-      <p>Results</p>
-      <ul>
-        <li>22.03.2018, BRN, 37th Bahrain Chess Academy Blitz Fide Rated, Seef, BRN</li>
-        <li>22.03.2018, EGY, 13th Int. Maadi Chess Academy Blitz - Open, Cairo, EGY</li>
-        <li>22.03.2018, GER, Koenig Tegel - 3. Tegeler Blitz-Cup, Berlin, GER</li>
-      </ul>
-    </div>
+    </div> <!-- container-fluid -->
 
   </body>
 </html>
