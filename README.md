@@ -119,7 +119,7 @@ En dreamhost ?
 ---
 
 #### Referencias
-[HTML 5 Rocks Responsive Design](https://www.html5rocks.com/en/mobile/responsivedesign/)
-[Google developers - Responsive Web Design](https://developers.google.com/web/fundamentals/design-and-ux/responsive/)
-[UXPin Guide to mobile first design](https://www.uxpin.com/studio/blog/a-hands-on-guide-to-mobile-first-design/)
-[Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+- [HTML 5 Rocks Responsive Design](https://www.html5rocks.com/en/mobile/responsivedesign/)
+- [Google developers - Responsive Web Design](https://developers.google.com/web/fundamentals/design-and-ux/responsive/)
+- [UXPin Guide to mobile first design](https://www.uxpin.com/studio/blog/a-hands-on-guide-to-mobile-first-design/)
+- [Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
