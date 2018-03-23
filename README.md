@@ -35,10 +35,15 @@ Primero de todo, tenemos que utilizar el viewport meta tag para definir el ancho
 Hay que pensar en incorporar la información de manera incremental. Empezamos con la minima cantidad necesaria en dispositivos pequeños, y a medida que la diagonal del dispositivo crezca en tamaño, vamos incorporando el resto de partes de la información que compone la web.
 
 > Mobile first approach means :
+
 > Design content-first. Add information to each progressively-larger layout,
+
 > Sort information into Primary, Secondary, Tertiary content,
+
 > Write css that defines shared styles first, builds up styles for larger screens with media queries, and uses relative units,
-and
+
+> and
+
 > Write unobtrusive Javascript to conditionally load in content fragments, take advantage of touch events and geolocation.
 
 
