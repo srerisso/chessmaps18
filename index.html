@@ -7,29 +7,53 @@
     <title>chessmaps</title>
   </head>
   <body>
-    <div class="container-fluid">
-      <div class="navbar">
-        <div class="navbar-brand">
-          ChessMaps
-        </div>
-        <div class="navbar-nav">
-          <ul>
-            <li>
-               <span class="oi oi-magnifying-glass">Search</span>
-            </li>
-          </ul>
-        </div>
-      </div> <!-- navbar -->
 
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav><!-- navbar -->
+    
+    <div class="container">
       <div class="row">
           <img src="https://maps.googleapis.com/maps/api/staticmap?center=La Pedrera, Barcelona, Spain&zoom=13&size=640x400&maptype=roadmap
     &markers=color:blue%7Clabel:S%7C40.702147,-74.015794&markers=color:green%7Clabel:G%7C40.711614,-74.012318
     &markers=color:red%7Clabel:C%7C40.718217,-73.998284
-    &key=AIzaSyC7N-2lq8GLkCCSx5USixX7xRCkdnAsaZU" alt="chessMapa" class="img-fluid">
+    &key=AIzaSyC7N-2lq8GLkCCSx5USixX7xRCkdnAsaZU" alt="chessMapa">
       </div>
 
       <div class="row">
-        <div class="textMap">
+        <div class="col-sm-12">
           <p>Results</p>
           <ul>
             <li>22.03.2018, BRN, 37th Bahrain Chess Academy Blitz Fide Rated, Seef, BRN</li>
@@ -40,6 +64,8 @@
       </div>
 
     </div> <!-- container -->
-
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
