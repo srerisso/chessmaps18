@@ -11,7 +11,9 @@ Y también me sirve como guía a mí, claro.
     - Lo Fundamental
     - La información
     - Estilos
+    - Imágenes adaptables
     - Javascript
+    - Geolocalización
 
 - Google Static Maps
 
@@ -95,8 +97,13 @@ Crear 2 archivos css, _master.css_ y _enhanced.css_ para servir estilos básicos
 
 Enchufando Bootstrap, todas estas configuraciones y ejemplos son más fluidas, y simplemente hay que utilizar su nomenclatura. Ver los [Bootstrap responsive breakpoints](https://getbootstrap.com/docs/4.0/layout/overview/#responsive-breakpoints).
 
+### Imágenes adaptables
+Optimizar las imágenes para cada dispositivo.
 
 ### Javascript
+Hay que tener en cuenta que utilizamos jQuery en nuestro caso. Pero no utilizamos la librería entera.
+Hay alguna manera de optimizar / recortar para tener sólo la parte que utilizamos ?. Puede que [Google Closure Compiler](https://developers.google.com/closure/compiler/?csw=1) sea una opción interesante. Elimina javascript que no utilizamos, minimiza y reescribe lo que queda de nuestras librerías / código inicial.
+
 
 > Write unobtrusive Javascript to conditionally load in content fragments, take advantage of touch events and geolocation.
 
