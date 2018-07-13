@@ -17,7 +17,7 @@ Y también me sirve como guía a mí, claro.
 
 - Google Static Maps
 
-- Bootstrap
+- Bootstrap o Bulma
 
 - Hosting
 
@@ -96,6 +96,14 @@ Crear 2 archivos css, _master.css_ y _enhanced.css_ para servir estilos básicos
 ````
 
 Enchufando Bootstrap, todas estas configuraciones y ejemplos son más fluidas, y simplemente hay que utilizar su nomenclatura. Ver los [Bootstrap responsive breakpoints](https://getbootstrap.com/docs/4.0/layout/overview/#responsive-breakpoints).
+
+[13/07/2018]
+Después de probar durante unos días el framework css [Bulma](https://bulma.io), lo incorporo al proyecto, para probar de avanzar más rápido en el diseño de la estructura del sitio.
+Sobre todo en el tema responsive, porque lo veo más fácil.
+
+> Bulma is a mobile-first framework.
+
+[Bulma's responsiveness](https://bulma.io/documentation/overview/responsiveness/)
 
 ### Imágenes adaptables
 Optimizar las imágenes para cada dispositivo.
