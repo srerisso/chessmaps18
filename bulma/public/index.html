@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="vendors/bulma/css/bulma.css">
     <link rel="stylesheet" href="vendors/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles/master.css">
+    <link rel="stylesheet" href="styles/main.css">
     <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
     <title>chessmaps - chess tournaments info</title>
   </head>
@@ -29,22 +29,30 @@
           </a>
           <div class="navbar-item has-dropdown is-hoverable">
             <a class="navbar-link" href="/documentation/overview/start/">
-              <i class="fas fa-chess-king"></i> &nbsp; Tournaments
+              <i class="fas fa-chess-king"></i> &nbsp; Chess info
             </a>
             <div class="navbar-dropdown is-boxed">
-              <a class="navbar-item" href="tournaments/add">
-                Add tournament
+              <a class="navbar-item" href="chess/tournaments/current">
+                Current tournaments
               </a>
-              <a class="navbar-item" href="clubs">
-                List tournaments
+              <a class="navbar-item" href="chess/tournaments">
+                All tournaments
               </a>
               <a class="navbar-divider"></a>
-              <a class="navbar-item" href="clubs">
+              <a class="navbar-item" href="chess/clubs">
                  Chess Clubs
+              </a>
+              <a class="navbar-divider"></a>
+              <a class="navbar-item" href="chess/players">
+                 Chess Players
               </a>
 
             </div>
           </div>
+
+          <a class="navbar-item">
+            <i class="fas fa-chess-pawn"></i> &nbsp; About us
+          </a>
         </div>
 
         <div class="navbar-end">
@@ -55,7 +63,7 @@
       </div>
     </nav>
 
-    <section class="hero is-light is-medium">
+    <section class="hero is-info is-medium">
       <div class="hero-body">
         <div class="container">
           <h1 class="title">
@@ -65,9 +73,86 @@
       </div>
     </section>
 
-  <section>
-
+  <section class="content">
+    <table class="table">
+      <tr>
+        <th>Entry Header 1</th>
+        <th>Entry Header 2</th>
+        <th>Entry Header 3</th>
+        <th>Entry Header 4</th>
+      </tr>
+      <tr>
+        <td>Entry First Line 1</td>
+        <td>Entry First Line 2</td>
+        <td>Entry First Line 3</td>
+        <td>Entry First Line 4</td>
+      </tr>
+      <tr>
+        <td>Entry Line 1</td>
+        <td>Entry Line 2</td>
+        <td>Entry Line 3</td>
+        <td>Entry Line 4</td>
+      </tr>
+      <tr>
+        <td>Entry Last Line 1</td>
+        <td>Entry Last Line 2</td>
+        <td>Entry Last Line 3</td>
+        <td>Entry Last Line 4</td>
+      </tr>
+      <tr>
+        <td>Entry Header 1</td>
+        <td>Entry Header 2</td>
+        <td>Entry Header 3</td>
+        <td>Entry Header 4</td>
+      </tr>
+      <tr>
+        <td>Entry First Line 1</td>
+        <td>Entry First Line 2</td>
+        <td>Entry First Line 3</td>
+        <td>Entry First Line 4</td>
+      </tr>
+      <tr>
+        <td>Entry Line 1</td>
+        <td>Entry Line 2</td>
+        <td>Entry Line 3</td>
+        <td>Entry Line 4</td>
+      </tr>
+      <tr>
+        <td>Entry Last Line 1</td>
+        <td>Entry Last Line 2</td>
+        <td>Entry Last Line 3</td>
+        <td>Entry Last Line 4</td>
+      </tr>
+    </table>
   </section>
+
+    <script type="text/javascript">
+      document.addEventListener('DOMContentLoaded', () => {
+
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+      // Check if there are any navbar burgers
+      if ($navbarBurgers.length > 0) {
+  console.log("Navba burger present");
+        // Add a click event on each of them
+        $navbarBurgers.forEach( el => {
+          el.addEventListener('click', () => {
+
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+
+            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+            el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+
+          });
+        });
+      }
+
+      });
+    </script>
 
   </body>
 </html>
