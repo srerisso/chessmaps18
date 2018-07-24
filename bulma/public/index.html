@@ -3,21 +3,71 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="vendors/bulma/css/bulma.css">
-    <link rel="stylesheet" href="vendors/bufont-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendors/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/master.css">
-    <title>chessmaps - bulma</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+    <title>chessmaps - chess tournaments info</title>
   </head>
   <body>
-    
-    <section class="hero is-primary">
+
+    <nav class="navbar is-transparent">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://bulma.io">
+          <img src="images/chessmaps_logo.png" alt="chess tournaments in a map">
+        </a>
+        <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <div id="navbarExampleTransparentExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="https://chessmaps.com/">
+            <i class="fas fa-chess-queen"></i> &nbsp; Home
+          </a>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="/documentation/overview/start/">
+              <i class="fas fa-chess-king"></i> &nbsp; Tournaments
+            </a>
+            <div class="navbar-dropdown is-boxed">
+              <a class="navbar-item" href="tournaments/add">
+                Add tournament
+              </a>
+              <a class="navbar-item" href="clubs">
+                List tournaments
+              </a>
+              <a class="navbar-divider"></a>
+              <a class="navbar-item" href="clubs">
+                 Chess Clubs
+              </a>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <i class="fas fa-chess-rook"></i><a href="admin/login.html" class="navbar-item">Admin</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero is-light is-medium">
       <div class="hero-body">
         <div class="container">
           <h1 class="title">
-            Hello chessmaps bulma!
+            Hello chessmaps world!
           </h1>
         </div>
       </div>
     </section>
-    
+
+  <section>
+
+  </section>
+
   </body>
 </html>
