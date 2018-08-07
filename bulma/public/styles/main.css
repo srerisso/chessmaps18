@@ -1,5 +1,8 @@
 @charset "UTF-8";
-/* customizations go above this line */
+/* Coolors Exported Palette - coolors.co/5bc0eb-fde74c-9bc53d-e55934-fa7921 */
+/* HSL */
+/* RGB */
+/* customizations for Bulma go above this line */
 /*! bulma.io v0.7.1 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {
   from {
@@ -8430,7 +8433,7 @@ label.panel-block:hover {
 }
 
 .footer {
-  background-color: #fafafa;
+  background-color: #5bc0eb;
   padding: 3rem 1.5rem 6rem;
 }
 

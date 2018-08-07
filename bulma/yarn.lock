@@ -6,6 +6,10 @@ bulma@^0.7.1:
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/bulma/-/bulma-0.7.1.tgz#73c2e3b2930c90cc272029cbd19918b493fca486"
 
+flag-icon-css@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/flag-icon-css/-/flag-icon-css-3.0.0.tgz#a67cb3913973e38a8117e738ebbe9081049d8127"
+
 font-awesome@^4.7.0:
   version "4.7.0"
   resolved "https://registry.yarnpkg.com/font-awesome/-/font-awesome-4.7.0.tgz#8fa8cf0411a1a31afd07b06d2902bb9fc815a133"

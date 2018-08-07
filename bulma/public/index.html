@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html class="has-navbar-fixed-top" lang="en">
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="vendors/bulma/css/bulma.css">
@@ -10,7 +10,7 @@
   </head>
   <body>
 
-    <nav class="navbar is-transparent">
+    <nav class="navbar is-fixed-top">
       <div class="navbar-brand">
         <a class="navbar-item" href="https://bulma.io">
           <img src="images/chessmaps_logo.png" alt="chess tournaments in a map">
@@ -29,7 +29,7 @@
           </a>
           <div class="navbar-item has-dropdown is-hoverable">
             <a class="navbar-link" href="/documentation/overview/start/">
-              <i class="fas fa-chess-king"></i> &nbsp; Chess info
+              <i class="fas fa-chess-king"></i> &nbsp; Tournaments
             </a>
             <div class="navbar-dropdown is-boxed">
               <a class="navbar-item" href="chess/tournaments/current">
@@ -59,72 +59,110 @@
           <div class="navbar-item">
             <i class="fas fa-chess-rook"></i><a href="admin/login.html" class="navbar-item">Admin</a>
           </div>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="/documentation/overview/start/">
+              <span class="flag-icon flag-icon-gr flag-icon-squared"></span> Eng
+            </a>
+            <div class="navbar-dropdown is-boxed">
+              <a href="" class="navbar-item">Esp</a>
+              <a href="" class="navbar-item">Cat</a>
+            </div>
+
+          </div>
         </div>
       </div>
     </nav>
 
-    <section class="hero is-info is-medium">
-      <div class="hero-body">
-        <div class="container">
-          <h1 class="title">
-            Hello chessmaps world!
-          </h1>
-        </div>
-      </div>
+    <section class="hero">
+      <image class="img" src="images/pexels-photo-951229_500h.jpg"></image>
     </section>
 
-  <section class="content">
-    <table class="table">
-      <tr>
-        <th>Entry Header 1</th>
-        <th>Entry Header 2</th>
-        <th>Entry Header 3</th>
-        <th>Entry Header 4</th>
-      </tr>
-      <tr>
-        <td>Entry First Line 1</td>
-        <td>Entry First Line 2</td>
-        <td>Entry First Line 3</td>
-        <td>Entry First Line 4</td>
-      </tr>
-      <tr>
-        <td>Entry Line 1</td>
-        <td>Entry Line 2</td>
-        <td>Entry Line 3</td>
-        <td>Entry Line 4</td>
-      </tr>
-      <tr>
-        <td>Entry Last Line 1</td>
-        <td>Entry Last Line 2</td>
-        <td>Entry Last Line 3</td>
-        <td>Entry Last Line 4</td>
-      </tr>
-      <tr>
-        <td>Entry Header 1</td>
-        <td>Entry Header 2</td>
-        <td>Entry Header 3</td>
-        <td>Entry Header 4</td>
-      </tr>
-      <tr>
-        <td>Entry First Line 1</td>
-        <td>Entry First Line 2</td>
-        <td>Entry First Line 3</td>
-        <td>Entry First Line 4</td>
-      </tr>
-      <tr>
-        <td>Entry Line 1</td>
-        <td>Entry Line 2</td>
-        <td>Entry Line 3</td>
-        <td>Entry Line 4</td>
-      </tr>
-      <tr>
-        <td>Entry Last Line 1</td>
-        <td>Entry Last Line 2</td>
-        <td>Entry Last Line 3</td>
-        <td>Entry Last Line 4</td>
-      </tr>
-    </table>
-  </section>
+    <section>
+      &nbsp;
+    </section>
+
+    <!-- container con Tournaments info -->
+    <div class="container">
+      <section class="content" id="currentTournaments">
+        <h2>Current tournaments</h2>
+        <table class="table">
+          <tr>
+            <th>Name</th>
+            <th>Date</th>
+            <th>Rounds</th>
+            <th>Pairings</th>
+            <th>Location</th>
+          </tr>
+          <tr>
+            <td><a href="tournament/12a">1.internationaler Grazer Sommerblitzcup</a></td>
+            <td>08/07/2018</td>
+            <td>8</td>
+            <td><a href="http://chess-results.com/Kalender.aspx?lan=4&%7CChessResults.Com%7C2018-08-07%7C2018-08-07%7C1.internationaler%20Grazer%20Sommerblitzcup%7C">Pairings</a></td>
+            <td>Austria</td>
+          </tr>
+          <tr>
+            <td><a href="tournament/34b">Speed Chess Championship 2018</a></td>
+            <td>08/07/2018</td>
+            <td>4</td>
+            <td><a href="">Pairings</a></td>
+            <td>Online</td>
+          </tr>
+          <tr>
+            <td><a href="tournament/56c">3rd Eastern Asia Youth Chess Championship Rapid U8
+,</a></td>
+            <td>08/07/2018</td>
+            <td>8</td>
+            <td><a href="https://ratings.fide.com/tournament_details.phtml?event=193177">Tourn. info</a></td>
+            <td>Entry Last Line 5</td>
+          </tr>
+        </table>
+      </section>
+
+      <hr>
+
+      <section class="content" id="nextTournaments">
+        <h2>Incoming tournaments</h2>
+        <table class="table">
+          <tr>
+            <th>Name</th>
+            <th>Date</th>
+            <th>Rounds</th>
+            <th>Location</th>
+          </tr>
+          <tr>
+            <td><a href="tournaments/123">25th Abu Dhabi Chess Festival</a></td>
+            <td>08/06/2018</td>
+            <td>--</td>
+            <td>Abu Dhabi, UAE</td>
+          </tr>
+          <tr>
+            <td><a href="tournaments/456">Saint Louis Rapid & Blitz</a></td>
+            <td>08/10/2018</td>
+            <td>Entry Line 3</td>
+            <td>St. Louis, USA</td>
+          </tr>
+          <tr>
+            <td><a href="tournaments/789">Sinquefield Cup</a></td>
+            <td>08/17/2018</td>
+            <td>Entry Last Line 3</td>
+            <td>St. Louis, USA</td>
+          </tr>
+        </table>
+      </section>
+    </div>
+
+    <br>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="content">
+        <p>
+          <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+          is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+        </p>
+      </div>
+    </footer>
 
     <script type="text/javascript">
       document.addEventListener('DOMContentLoaded', () => {

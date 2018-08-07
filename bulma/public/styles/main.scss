@@ -1,6 +1,10 @@
+@import "./chessmaps_palette.scss";
 
-/* customizations go above this line */
+$footer-background-color: $color1;
+
+/* customizations for Bulma go above this line */
 @import "../vendors/bulma/bulma.sass";
+// @import "../vendors/flag-icon-css/sass/flag-icon.scss";
 
 .navbar-item img {
   max-height: 2.5rem;
