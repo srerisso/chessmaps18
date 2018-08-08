@@ -1,6 +1,10 @@
 @import "./chessmaps_palette.scss";
 
 $footer-background-color: $color1;
+$success: $color3;
+$info: $color1;
+// $navbar-background-color: $success;
+$navbar-text-color: #000000;
 
 /* customizations for Bulma go above this line */
 @import "../vendors/bulma/bulma.sass";
