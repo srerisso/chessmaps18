@@ -3,7 +3,9 @@
 ## What ?
 chessmaps es un proyecto que nace de la mente de [Juanan](https://github.com/jamvius) :-)
 
-En este documento README prentendo explicar el proceso mental para crear este website, siguiendo el enfoque _mobile first_, enchufando [Google Static Maps](https://developers.google.com/maps/documentation/static-maps/intro?hl=es-419#quick_example), apoyando una pata en [BootStrap 4.0](https://getbootstrap.com/docs/4.0/getting-started/introduction/), y casi, casi hasta explicando dónde y cómo alojarlo y ponerlo en producción.
+En este documento README prentendo explicar el proceso mental para crear este website, siguiendo el enfoque _mobile first_, enchufando [Google Static Maps](https://developers.google.com/maps/documentation/static-maps/intro?hl=es-419#quick_example), apoyando una pata en [BootStrap 4.0](https://getbootstrap.com/docs/4.0/getting-started/introduction/) o en [Bulma](https://bulma.io)
+
+Por último, dónde y cómo alojar el proyecto y que hacer para ponerlo en producción.
 
 Y también me sirve como guía a mí, claro.
 ## Tabla de contenidos
@@ -120,9 +122,9 @@ Hay alguna manera de optimizar / recortar para tener sólo la parte que utilizam
 
  Enchufar Google Static Maps API a chessmaps.
 
-## Bootstrap
+## Bootstrap o Bulma ?
 
-Bootstrap puede ayudar a que todo el desarrollo vaya más rápido ???
+Empecé pensando en utilizar Bootstrap, pero la primera maqueta está hecha en Bulma. Ambos frameworks CSS ayudan a montar rápidamente una maqueta de un sitio web o app o lo que queiras.
 
 ## Cloud Hosting
 
@@ -138,3 +140,4 @@ En dreamhost ?
 - [Google developers - Responsive Web Design](https://developers.google.com/web/fundamentals/design-and-ux/responsive/)
 - [UXPin Guide to mobile first design](https://www.uxpin.com/studio/blog/a-hands-on-guide-to-mobile-first-design/)
 - [Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+- [Bulma](https://bulma.io)
